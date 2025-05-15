@@ -14,7 +14,9 @@ export default function App() {
   return (
     <ConnectionProvider endpoint={network}>
       <WalletProvider wallets={wallets} autoConnect>
-        <MainLayout />
+        <div style={{ color: 'white', padding: '2rem' }}>
+          ✅ Nexsplit is running – MainLayout temporarily disabled
+        </div>
       </WalletProvider>
     </ConnectionProvider>
   );
